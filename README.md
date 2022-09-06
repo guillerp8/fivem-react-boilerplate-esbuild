@@ -2,6 +2,7 @@
 A boilerplate made to work easily with FiveM and React using esbuild for my personal projects, if someone wants to use it, feel free to do so
 
 # How to install
+Install concurrently with the command `npm i concurrently -g`
 Use the command: `npm install` inside the web folder.
 
 # Commands
