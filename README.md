@@ -8,4 +8,5 @@ Use the command: `npm install` inside the web folder.
 
 # Commands
 To start the UI in the browser: `npm start`
+
 To start the UI in FiveM with watch changes: `npm run watch`
