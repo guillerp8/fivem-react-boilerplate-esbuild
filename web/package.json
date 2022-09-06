@@ -1,0 +1,25 @@
+{
+  "name": "fivem-react-boilerplate-esbuild",
+  "version": "1.0.0",
+  "description": "A boilerplate made to work easily with FiveM and React using esbuild for my personal projects, if someone wants to use it, feel free to do so",
+  "scripts": {
+    "watch": "esbuild src/index.tsx --outdir=dist --watch --target=es6 --minify --bundle --loader:.png=dataurl --loader:.ttf=file --loader:.otf=file",
+    "start": "concurrently \"npm run watch\" \"cd dist && live-server\""
+  },
+  "author": "guillerp (Thanks to Mojito https://github.com/Mojito-Fivem for some esbuild commands and Project Error for some hooks and utils https://github.com/project-error/fivem-react-boilerplate-lua)",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/material": "^5.10.3",
+    "esbuild": "^0.15.7",
+    "framer-motion": "^7.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "zustand": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.15"
+  }
+}
